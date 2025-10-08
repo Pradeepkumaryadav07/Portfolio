@@ -1,0 +1,158 @@
+/* Dark Theme Overrides */
+:root {
+  --primary: #3a86ff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #1a1a1a;
+  --dark: #e0e0e0;
+  --white: #121212;
+  --black: #ffffff;
+  --gray: #6c757d;
+  --gray-dark: #e0e0e0;
+  --body-bg: #121212;
+  --body-color: #e0e0e0;
+}
+
+/* Base Styles */
+body {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+/* Navigation */
+.ftco-navbar-light {
+  background: rgba(18, 18, 18, 0.95) !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: var(--dark);
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover,
+.ftco-navbar-light .navbar-nav > .nav-item.active > .nav-link {
+  color: var(--primary);
+}
+
+/* Hero Section */
+.home-slider .slider-item {
+  background-color: var(--body-bg);
+}
+
+.slider-text h1, 
+.slider-text h2,
+.slider-text p {
+  color: var(--dark);
+}
+
+/* About Section */
+.about-wrap {
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+/* Resume Section */
+.resume-wrap {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 2px solid var(--primary);
+}
+
+/* Project Cards */
+.project {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project .text {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Contact Form */
+.form-control {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--dark);
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--primary);
+  color: var(--dark);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: #2667cc;
+  border-color: #2667cc;
+}
+
+/* Footer */
+.ftco-footer {
+  background: #0a0a0a;
+}
+
+.ftco-footer p, 
+.ftco-footer .ftco-heading-2,
+.ftco-footer .block-23 ul li,
+.ftco-footer .block-23 ul li a,
+.ftco-footer .block-23 ul li .icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: var(--dark);
+}
+
+/* Links */
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: #2667cc;
+}
+
+/* Cards */
+.card {
+  background-color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Tables */
+.table {
+  color: var(--dark);
+}
+
+.table thead th {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.table td, .table th {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2667cc;
+}
