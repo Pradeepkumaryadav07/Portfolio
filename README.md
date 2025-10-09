@@ -1,3 +1,7 @@
-Hello! I'm Pradeep Yadav, a aspiring web developer with a passion for building scalable web applications, exploring data insights, creating intuitive user experiences.
-This portfolio serves as a showcase of my work, demonstrating my proficiency in HTML, CSS, JavaScript & React.js. You'll find a collection of projects highlighting my skills inn web development.
-I am always eager to learn and contribute to innovative projects. Feel free to explore my repositories and connect with me to discuss potential collaborations or opportunities.
+I’m a passionate and motivated fresher developer with a strong interest in Web Development. I enjoy turning ideas into real-world projects through clean design, efficient code, and creative problem-solving.
+
+🔹 Skilled in React, HTML, CSS, and JavaScript
+🔹 Interested in building creative, efficient, and user-friendly digital solutions
+🔹 Eager to learn, collaborate, and grow in the tech industry
+
+Explore my repositories to see my work in AI-driven applications, fitness tracking, tourism platforms, and portfolio design.
